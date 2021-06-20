@@ -42,5 +42,4 @@
 #### `<select></select>`'s tags
 - `<select multiple>` : User can choose more than one options.
 - `<select size="n">` : Default the value of options will be shown.
-- `<option>Option 1</option>`'s tag must be 
-- inside of `select`'s tag.
+- `<option>Option 1</option>`'s tag must be inside of `select`'s tag.
