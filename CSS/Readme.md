@@ -15,3 +15,40 @@
 - Class Selector
 - Universal Selector
 - Grouping Selector
+<hr/>
+
+#### Font: <br/>
+- font-family
+- font-size
+- font-weight
+  - normal
+  - lighter
+  - **bold**
+  - bolder
+- font-style
+  - normal
+  - italic
+  - oblique
+- color
+- comment
+  - `/* This is a comment, */`
+<hr/>
+
+#### Text-Style
+- `text-indent` : Specifies the indentation of the first line in a text-block. 首行缩进
+- `text-align` : Specifies the horizontal alignment of text in an element. 水平对齐
+  - left
+  - center
+  - right 
+- `text-decoration` : Specifies the decoration added to text, and is a shorthand property. 文本修饰
+  - none(default)
+  - underline
+  - line-through
+  - overline
+- `text transform` : Controls the capitalization of text. 大小写转换
+  - none
+  - lowercase
+  - uppercase
+  - capitalize
+- `line-height` : Line height. 行高
+- `letter-spacing, word-spacing` : Spacing between letter or word. 字母间距,词间距
