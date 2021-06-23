@@ -52,3 +52,18 @@
   - capitalize
 - `line-height` : Line height. 行高
 - `letter-spacing, word-spacing` : Spacing between letter or word. 字母间距,词间距
+<hr/>
+
+#### Border
+- `border-width:0px;` : The width of border.
+- `border-style:none/dashed/solid;` : The border style.
+- `border-color:red;` : The border color.
+- `border:0px none red;` : The shortcut of border.<br/>
+- `border-top/bottom/left/right-width` : Spectific CSS for certain part of border.
+<hr/>
+
+#### List-Style-Type
+- `ol{list-style-type:lower-roman;}` : Use at `ul` & `ol` element not in `li` element.
+- `ul,ol{list-style-type:none;}` : Often use `none` to delete to symbol.
+- `ul{list-style-image:url(path)}` : Use image as symbol.
+  - Normal will not using `list-style-type` to make the symbol but use `iconfont`.
