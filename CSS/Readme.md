@@ -65,5 +65,20 @@
 #### List-Style-Type
 - `ol{list-style-type:lower-roman;}` : Use at `ul` & `ol` element not in `li` element.
 - `ul,ol{list-style-type:none;}` : Often use `none` to delete to symbol.
-- `ul{list-style-image:url(path)}` : Use image as symbol.
+- `ul{list-style-image:url(path);}` : Use image as symbol.
   - Normal will not using `list-style-type` to make the symbol but use `iconfont`.
+<hr/>
+
+#### Table
+- `table{caption-side:value;}` : Specifies the placement of table. (Value = top / bottom)
+- `table{border-collapse: value;}` : Remove the space between border and border. (Value = seperate / collapse)
+- `table{border-spacing:0px;}` : Adding spacing between border and border.
+<hr/>
+
+#### Image
+- `width:100px;` : Determine the width of Image.
+- `height:100px;` : Determine the height of Image.
+- `border:1px solid black;` : Determine the border of Image.
+- `.img1{text-align:value;}` : Image alignment, `text-align` only use at image and text. (Value = left / center / right)
+- `.img{vertical-align:value;}` : Image vertical alignment. (Value = top / middle /baseline / bottom)
+- `.img1{float:value;}` : Add image beside text. (Value = left / right)
