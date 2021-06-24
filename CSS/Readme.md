@@ -82,3 +82,11 @@
 - `.img1{text-align:value;}` : Image alignment, `text-align` only use at image and text. (Value = left / center / right)
 - `.img{vertical-align:value;}` : Image vertical alignment. (Value = top / middle /baseline / bottom)
 - `.img1{float:value;}` : Add image beside text. (Value = left / right)
+<hr/>
+
+#### Background
+- `.bg{background-color:color-value;}` : Set background color.
+- `.bgimage{background-image: url(path/name.png);}` : Set background image.
+- `.bgrepeat{background-repeat: value;}` : Repeat the background icon. (Value = repeat / repeat-x / repeat-y / no-repeat)
+- `.bgposition{background-position: horizontal vertical / keyword;}` : Set background position.
+- `.bgatm{background-attachment: value;}` : Spectific the background is fix or scroll. (Value : fixed / scroll)
