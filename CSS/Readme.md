@@ -90,3 +90,17 @@
 - `.bgrepeat{background-repeat: value;}` : Repeat the background icon. (Value = repeat / repeat-x / repeat-y / no-repeat)
 - `.bgposition{background-position: horizontal vertical / keyword;}` : Set background position.
 - `.bgatm{background-attachment: value;}` : Spectific the background is fix or scroll. (Value : fixed / scroll)
+<hr/>
+
+#### Hyperlink
+- `a:link{color:value;}` : When the link have not visited.
+- `a:visited{color:value;}` : When the link had been visited.
+- `a:hover{color:value;}` : When the mouse cursor on the link. (Can use it individual.)
+  - hover can use at any element such as `div:hover` & `img:hover`.
+- `a:active{color:value;}` : When opening the link.
+- Must be link -> visited -> hover -> active
+
+##### Mouse cursor
+- `.default{cursor:value;}` : Normal we just use (Value = default / pointer / text).
+- `.customize{cursor:url(path/name,default;)`Customize our cursor ourself with **".cur"**.
+
