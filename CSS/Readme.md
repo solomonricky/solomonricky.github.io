@@ -104,3 +104,6 @@
 - `.default{cursor:value;}` : Normal we just use (Value = default / pointer / text).
 - `.customize{cursor:url(path/name,default;)`Customize our cursor ourself with **".cur"**.
 
+##### Float and Clear
+- `float:left` : Set floating format. (Value = left / right / none)
+- `clear:both` : Clear floating format. Usually we using both. (Value = left / right / both)
