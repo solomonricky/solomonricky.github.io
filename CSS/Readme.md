@@ -107,3 +107,9 @@
 ##### Float and Clear
 - `float:left` : Set floating format. (Value = left / right / none)
 - `clear:both` : Clear floating format. Usually we using both. (Value = left / right / both)
+
+##### Position
+- `position:fixed` : When scroll the website it the content will still at the fixed position. Must pair with top / left / bottom / left. #浏览器角度
+- `position:relative` : Change the layout from the initial code. Must pair with top / left / bottom / left.
+- `position:absolute` : Change the layout from the browser. Must pair with top / left / bottom / left.
+- `position:static` : Default. Usually use in Javascripts.
