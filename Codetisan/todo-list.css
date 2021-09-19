@@ -6,10 +6,10 @@ body {
 
 main {
     width:500px;
-    margin: 0 auto;
+    margin: 50px auto;
     text-align: center;
     background-color: white;
-    padding: 30px;
+    padding: 30px 50px;
     border-radius: 5px;
 }
 
@@ -35,6 +35,7 @@ input[type=text] {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 .todo-item span {
@@ -59,4 +60,27 @@ input[type=checkbox] {
     content: "\2713";
     color: #10ac84;
     display: none;
+}
+
+.done .tick::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.done span {
+    text-decoration: line-through;
+}
+
+.todo-item button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button img {
+    width:30px;
+    height: 30px;
 }
