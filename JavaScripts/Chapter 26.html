@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Chapter 26</title>
+        <script>
+// Question 01
+//            var n = 1;
+//            var sum = 0;
+// ================================while loop===================================
+//            while (n <= 100)
+//            {
+//                sum=sum+n;
+//                n=n+1;
+//            }
+//            document.write("while loop : " + "1+2+3+4+...+100 = " + sum);
+// =============================================================================
+// =============================do ... while loop===============================
+//            do
+//            {
+//                sum=sum+n;
+//                n=n+1;   
+//            }while(n <=100);
+//            document.write("<br/>" + "do...while loop : " + "1+2+3+4+...+100 = " + sum);
+// =============================================================================
+// =================================for loop====================================
+//            for(;n <=100;n++)
+//            {
+//                sum += n;
+//            }
+//            document.write("for loop : " + "1+2+3+4+...+100 = " + sum);
+// =============================================================================
+// Question 02
+            var i,j,k;
+            for (i=0;i<4;i++) 
+            {
+                for(j=0;j<3-i;j++)
+                {
+                    document.write("-");
+                }
+                for(k=0;k<2*i+1;k++)
+                {
+                    document.write("*");
+                }
+                document.write("<br/>");
+            }
+            for(i=0;i<3;i++)
+            {
+                for(j=0;j<i+1;j++)
+                {
+                    document.write("-");
+                }
+                for (k=0;k<5-2*i;k++)
+                {
+                    document.write("*");
+                }
+                document.write("<br/>");
+            }
+        </script>
+    </head>
+    <body></body>
+</html>
