@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Chapter 28</title>
+        <script>
+            var str = "Rome was not build in a day";
+            var n = 0;
+            for (var i = 0; i<str.length; i++)
+            {
+                if(str.charAt(i) == " ")
+                {
+                    n++;
+                }
+            }
+            n++;
+            document.write("Total have " + n + " word")
+            document.write("<br/>")
+// Wrong Method
+//            var str = "Hello Lvye";
+//            var str_new = str.replace(/e/g, "");
+//            document.write(str_new);
+            var str = "Hello Lvye";
+            var result = "";
+            for (var i=0; i < str.length; i++)
+            {
+                if(str.charAt(i) != "e");
+                {
+                    result += str.charAt(i);
+                }
+            }
+            document.write(result);
+        </script>
+    </head>
+</html>
