@@ -3,9 +3,17 @@
   <head>
     <meta charset="utf-8"/>
     <title>Welcome to SolomonRicky GitHub.io </title>
-    <style>
-      alert("Sorry for the inconvenience! This website is still under construction!")
-    </style>
+    <script>
+      window.onload = function ()
+      {
+        alert("Sorry for the inconvenience! This website is still under construction!");
+      }
+      window.onbeforeunload = function (event)
+      {
+        var e = event || window.event;
+        e.returnValue = "Thanks for your visited!";
+      }
+    </script>
   </head>
   <body>
     <p>Hi! Thanks you for visiting my website. Sorry about that currently are still in progress for this website.</p>
