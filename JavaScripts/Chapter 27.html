@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Chapter 27</title>
+        <script>
+            function getMin(a,b,c,d,e)
+            {
+                var getMin;
+                getMin = (a < b) ? a : b;
+                getMin = (b < c) ? getMin : c;
+                getMin = (c < d) ? getMin : d;
+                getMin = (d < e) ? getMin : e;
+                return getMin;
+            }
+            function getMax(a,b,c,d,e)
+            {
+                var getMin;
+                getMax = (a > b) ? a : b;
+                getMax = (b > c) ? getMax : c;
+                getMax = (c > d) ? getMax : d;
+                getMax = (d > e) ? getMax : e;
+                return getMax;
+            }
+            // document.write next line is adding "</br>"
+            document.write("The smallest number is: " + getMin(4,24,6,2,45) + "<br/>" + "The biggest number is: " + getMax(4,24,6,2,45))
+        </script>
+    </head>
+    <body>
+    </body>
+</html>
